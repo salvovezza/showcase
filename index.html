@@ -5,6 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Salvatore Vezza</title>
+    <style>
+      .showButton{
+        border: none;
+        background-color: rgb(30, 210, 30);
+        color: white;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-weight: bold;
+        border-radius: 50px;
+        cursor: pointer;
+      }
+    </Style>
   </head>
 <body>
   <div class="menu"
@@ -32,8 +46,20 @@
     <section>      
       <h2>Reasons why I would like to move into a career as Web Developer:</h2>
       <article class="flavor">
-        I completed a Software Engineering course at University in London, and I would like to persue my career in software development programming with C++, JavaScript, HTML, CSS, and some SQL and Matlab; ideally, working remotely. I have a friend in London who works remotely and he is also a JavaScript developer, I hope I will be that lucky to find a role that allows me to work remotely. I also have a friend who works in Disneyland in Paris and he also works remotely, but as an administrator; I know that there are people who prefer to go to the office, but I prefer to work remotely instead, if given the choice, also because I have some health issues about commuting. I am currently studying JavaScript, CSS, and HTML on a course of study from Founders and Coders, during which I have made a project game that you can try by using the following link: <a href="Curriculum Vitae (updated).pdf" style="color: blue">Click here to start the Rock Paper Scissors game</a></style>
-      </p>
+        I completed a Software Engineering course at University in London, and I would like to persue my career in software development programming with C++, JavaScript, HTML, CSS, and some SQL and Matlab; ideally, working remotely. I have a friend in London who works remotely and he is also a JavaScript developer, I hope I will be that lucky to find a role that allows me to work remotely. I also have a friend who works in Disneyland in Paris and he also works remotely, but as an administrator; I know that there are people who prefer to go to the office, but I prefer to work remotely instead, if given the choice, also because I have some health issues about commuting. I am currently studying JavaScript, CSS, and HTML on a course of study from Founders and Coders, during which I did a project game that you can try by clicking the following button:        
+    <button onclick="
+      showGame();     
+      " class="showButton"> 
+      Game</button>        
+      
+        <br>        
+        I also did a project a project about a calculator, that you can try by clicling the following button: 
+    <button onclick="
+      showCalculator();
+    " class="showButton">
+    Calculator</button>      
+        </br>   
+
       </article>
     </section>
 </main>
@@ -43,7 +69,7 @@
   <p></p> 
 
   <fieldset>
-    <legend>Do you like this Web Page?</legend>
+    <legend>Do you like this Website?</legend>
     <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>Good</label>
     <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Very good</label>
   </fieldset>
@@ -58,5 +84,13 @@
     <p class="alignCenter">© 2024 Salvatore Vezza</p>
   </footer>
   </div>
+  <script>
+    function showGame() {
+      document.location.href="Curriculum Vitae (updated).pdf";
+    }
+    function showCalculator() {
+      document.location.href="Curriculum Vitae (updated).pdf";
+    }
+  </script>
 </body>
 </html>
