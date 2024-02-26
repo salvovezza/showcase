@@ -1,102 +1,62 @@
 body {
-        background-color: cyan; 
-        font-family: sans-serif;
-        
-        padding: 20px;        
-     }
-
-h1 {
-      font-size: 40px;
-      margin-top: 0;
-      margin-bottom: 15px;
-   }
-
-h2 {
-      font-size: 30px;
-      margin-top: 0;
-      margin-bottom: 0;
-   }
-
-.established {
-                font-style: italic;
-             }
-
-img {
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-       margin-top: -25px;
-    }
-
-hr {
-      height: 2px;
-      background-color: brown;
-      border-color: brown;
-   }
-
-/*h1, h2, p {
-	     text-align: center;
-          }
-         */
+   background-color: cyan; 
+   font-family: sans-serif;
+   
+   padding: 20px;        
+}
+.menu {
+   background-color: white;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 20px;
+   max-width: 650px;
+}
 .alignCenter {
    text-align: center;
 }
-
-.menu {
-         background-color: white;
-         width: 80%;
-         margin-left: auto;
-         margin-right: auto;
-         padding: 20px;
-         max-width: 650px;
-      }
-
-.bottom-line {
-                margin-top: 25px;
-             }
-h1, h2 {
-          font-family: Impact, serif;
-       }
-
-.item {           
-           display: inline-block;
-           margin-top: 5px;
-           margin-bottom: 5px;
-           font-size: 18px;     
-           text-align:justify;           
-      }
-
-.flavor, .dessert {          
-          text-align:justify;         
-          width: 100%;
-        }
-
-.price {
-          text-align: right;
-          width: 25%;
-       }
-
-/*FOOTER*/
+.established {
+   font-style: italic;
+}
+.flavor {          
+   text-align:justify;         
+   width: 100%;          
+}
+ .bottom-line {
+   margin-top: 25px;
+}
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -25px;
+}
+hr {
+   height: 2px;
+   background-color: brown;
+   border-color: brown;
+}
+h1 {
+   font-size: 40px;
+   margin-top: 0;
+   margin-bottom: 15px;
+}
+h2 {
+   font-size: 30px;
+   margin-top: 0;
+   margin-bottom: 0;
+}
 footer {
-          font-size: 14px;
-       }
-
-.address {
-            margin-bottom: 5px;
-         }
-
+   font-size: 14px;
+}
 a {
-     color: black;
-  }
+   color: black;
+}
 
 a:visited {
-             color: black;
-          }
+           color: blue;
+}
 
 a:hover {
-           color: brown;
-        }
-
-a:active {
-            color: brown;
-         }
+         color: brown;
+}
