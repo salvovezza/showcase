@@ -1,0 +1,28 @@
+.buttonClear{
+  /*margin-left: 112px;*/
+  margin-left: 185px;
+}
+.topSpace{
+  margin-top: 30px;
+}
+.leftSpace{
+  margin-left: 160px;
+}
+.leftSpaceReduced{
+  margin-left: 50px;
+}
+.yellow-button{
+  background-color: yellow;
+}
+.green-button{
+  background-color: greenyellow;
+}     
+.violet-button{
+  background-color: rgb(207, 159, 255);
+}     
+.cyan-button{
+  background-color: cyan;
+}     
+.red-button{
+  background-color: rgb(255, 127, 127);
+}  
