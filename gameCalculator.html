@@ -3,36 +3,7 @@
   <head>
     <br></br>
     <h1 style="color: yellow"><p class="leftSpaceReduced"><tytle><span class = "red-button">Game: colorfulCalculator</span></tytle></p></h1>
-    <style>
-    .buttonClear{
-      /*margin-left: 112px;*/
-      margin-left: 185px;
-    }
-    .topSpace{
-      margin-top: 30px;
-    }
-    .leftSpace{
-      margin-left: 160px;
-    }
-    .leftSpaceReduced{
-      margin-left: 50px;
-    }
-    .yellow-button{
-      background-color: yellow;
-    }
-    .green-button{
-      background-color: greenyellow;
-    }     
-    .violet-button{
-      background-color: rgb(207, 159, 255);
-    }     
-    .cyan-button{
-      background-color: cyan;
-    }     
-    .red-button{
-      background-color: rgb(255, 127, 127);
-    }  
-    </style>
+    <link rel="stylesheet" href="calculator.css">
   </head>
   <body>
     <p class="topSpace leftSpace">
@@ -111,19 +82,7 @@
   <p></p>
   <font size="+10" class="leftSpace js-calculation"></font> 
 
-    <script>
-      let calculation = '';
-      function mainCalculation(strParameter) {
-        calculation += strParameter;
-        
-        console.log(calculation);
-      }
-     
-     function calculateEqual (calculation) {
-      document.querySelector('.js-calculation').innerHTML = calculation;
-      calculation = 0;
-     }
-       
+    <script src="calculator.js">             
     </script>    
   </body>
 </html>
