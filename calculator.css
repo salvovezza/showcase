@@ -11,6 +11,12 @@
 .leftSpaceReduced{
   margin-left: 50px;
 }
+.leftSpaceCenter{
+  margin-left: 92px;
+}
+.leftSpaceResult {
+  margin-left: 148px;
+}
 .yellow-button{
   background-color: yellow;
 }
